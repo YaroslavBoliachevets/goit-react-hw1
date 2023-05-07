@@ -8,8 +8,6 @@ import statiscs from 'data/statistics';
 import friends from 'data/friends';
 import transactions from 'data/transactions';
 
-// console.log("transactions", transactions);
-
 export const App = () => {
   return (
     <div style={{ backgroundColor: 'grey', padding: '50px 0px' }}>
@@ -17,7 +15,7 @@ export const App = () => {
       <Statistics statiscs={statiscs} title="Upload stats" />
       <FriendList friends={friends} />
       <TransactionHistory transactions={transactions}>
-        
+
       </TransactionHistory>
     </div>
   );
